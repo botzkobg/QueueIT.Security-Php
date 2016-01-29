@@ -2,9 +2,9 @@
 
 function validateQueueSession()
 {
-	$knowUserSecretKey = '0018b06e-52f0-4525-929c-786307e07bee056fdba5-6d61-444b-925e-5da1a53b37b5';
-	$userID = 'bookinglive';
-	$eventID = '3blqit20160122153138';
+	$knowUserSecretKey = '';
+	$userID = '';
+	$eventID = '';
 
 	if (!class_exists('\QueueIT\Security\KnownUserFactory'))
 		require_once __DIR__  . '/../QueueIT.Security/KnownUserFactory.php';
